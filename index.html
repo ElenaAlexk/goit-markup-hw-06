@@ -60,13 +60,18 @@
           </button>
         <form action="" class="form-modal">
          <p class="modal-title">Залиште свої дані, ми вам передзвонимо</p>
-         <div class="form-field"><label for="name">Ім'я</label><input class="form-input" type="text" name="name" />
+         <div class="form-field"><label for="name">Ім'я</label><input class="modal-form-input" type="text" name="name" />
           <svg class="form-icon" width="18" height="18">
             <use href="./images/icons.svg#icon-person_black"></use>
           </svg></div>
-         <div class="form-field"><label for="tel">Телефон</label><input class="form-input" type="tel" name="tel" /></div>
-         <div class="form-field"><label for="email">Пошта</label><input class="form-input" type="email" name="email" /></div>
-         <div class="form-field"><label for="comment">Коментар</label><textarea class="comment" name="comment" id="comment" cols="30" rows="8" placeholder="Введіть текст"></textarea></div>
+         <div class="form-field"><label for="tel">Телефон</label><input class="modal-form-input" type="tel" name="tel" />
+        <svg class="form-icon" width="18" height="18">
+            <use href="./images/icons.svg#icon-phone_black"></use></div>
+         <div class="form-field"><label for="email">Пошта</label><input class="modal-form-input" type="email" name="email" />
+        <svg class="form-icon" width="18" height="18">
+            <use href="./images/icons.svg#icon-email_black"></use></div>
+         <div class="form-field"><label for="comment">Коментар</label>
+          <textarea class="comment" name="comment" id="comment" cols="30" rows="8" placeholder="Введіть текст"></textarea></div>
          <div class="checkbox">
           <input type="checkbox" name="policy" id="policy" />
           <label for="policy">Погоджуюся з росилкою та приймаю
@@ -411,7 +416,7 @@
           
         <form class="form">
           <p class="subscription-title">Підпишіться на розсилку</p>
-            <input class="form-input" type="email" name="mail" id="mail" placeholder="E-mail" />
+            <input class="footer-form-input" type="email" name="mail" id="mail" placeholder="E-mail" />
           <button class="btn-submit" type="submit">Підписатися
             <svg class="icon-send" width="24" height="24">
               <use href="./images/icons.svg#icon-send"></use>

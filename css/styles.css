@@ -291,7 +291,7 @@ ol {
   color: #757575;
   letter-spacing: 0.01em;
 }
-.form-field .form-input {
+.form-field .modal-form-input {
   padding-left: 42px;
   width: 100%;
   margin: 0;
@@ -734,7 +734,7 @@ img {
   text-transform: uppercase;
   color: var(--primary-text-color);
 }
-.form-input {
+.footer-form-input {
   padding: 15px;
   width: 358px;
   height: 50px;
@@ -760,7 +760,7 @@ img {
   color: var(--primary-text-color);
   background-color: var(--accent-color);
 }
-.form-input::placeholder {
+.footer-form-input::placeholder {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.25;
