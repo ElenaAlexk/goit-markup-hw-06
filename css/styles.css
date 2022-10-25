@@ -106,9 +106,10 @@ ol {
 .auth-nav {
   display: flex;
   margin-left: auto;
+  align-items: center;
 }
 .link {
-  display: block;
+  display: flex;
   align-items: center;
 }
 .link.current {
@@ -664,6 +665,7 @@ img {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+  cursor: pointer;
   color: var(--primary-text-color);
   background-color: var(--accent-color);
 }
