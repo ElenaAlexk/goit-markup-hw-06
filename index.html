@@ -58,10 +58,21 @@
               <use href="./images/icons.svg#icon-close"></use>
             </svg>
           </button>
-        </div>
+        <form action="" class="form-modal">
+         <p class="modal-title">Залиште свої дані, ми вам передзвонимо</p>
+         <div class="form-field"><label for="name">Ім'я</label><input type="text" name="name" /></div>
+         <div class="form-field"><label for="tel">Телефон</label><input type="tel" name="tel" /></div>
+         <div class="form-field"><label for="email">Пошта</label><input type="email" name="email" /></div>
+         <div class="form-field"><label for="comment">Коментар</label><textarea class="comment" name="comment" id="comment" cols="30" rows="8" placeholder="Введіть текст"></textarea></div>
+         <div class="checkbox">
+          <input type="checkbox" name="policy" id="policy" />
+          <label for="policy">Погоджуюся з росилкою та приймаю
+            <a href="">Умови договору</a></label></div>
+         <button type="submit" class="form-btn">Відправити</button>
+        </form>
       </div>
+    </div>
     </section>
-
     <main>
       <section class="section">
         <div class="container">
