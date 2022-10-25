@@ -259,6 +259,7 @@ ol {
   border-radius: 50%;
   background-color: var(--primary-text-color);
   border: 1px solid rgba(0, 0, 0, 0.1);
+  cursor: pointer;
 }
 .icon-close {
   fill: #000000;
@@ -330,10 +331,15 @@ ol {
   text-align: center;
   align-items: center;
   color: var(--primary-text-color);
-  background-color: #188ce8;
+  background-color: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: transparent;
+  cursor: pointer;
+}
+.form-btn:hover,
+.form-btn:focus {
+  background-color: #188ce8;
 }
 .btn-filter {
   display: flex;
